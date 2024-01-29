@@ -40,8 +40,9 @@
     
       // hiding full on small screen
       @media(max-width: 768px){
-        width: 260px;
+        width: 100%;
         transform: translateX(-100%);
+        padding:20px;
       }
     
       .sidebar-top{
@@ -112,7 +113,7 @@
         column-gap: 8px;
         padding: 10px 8px;
         border-radius: 12px;
-        color: var(--side-text-color);
+        color: #636465;
         transition: var(--default-transition);
     
         &:hover{
@@ -163,6 +164,9 @@
         .menu-link-icon svg path{
           stroke: #fff;
         }
+        .menu-link{
+          color: #CECFD2;
+        }
       }
     
   .inline_btn{
@@ -189,6 +193,13 @@
 }
 @media(max-width:767px){
   .sidebar-brand img {
-    max-width: 120px;
+    max-width: 120px !important;
   }
+  .inline_btn{
+    display: inline-block !important;
+    padding: 12px 15px !important;
+  }
+  .staking_area .active_transactions {
+    padding-bottom: 10px !important;
+}
 }

@@ -48,8 +48,8 @@ const affiliateIcon = <svg xmlns="http://www.w3.org/2000/svg" width="20" height=
       <div className="sidebar-body">
         <div className="sidebar-menu">
           <ul className="menu-list">
-            <li className={`menu-item ${activeMenuItem === "games" ? "active" : ""}`}>
-              <Link to="games" className="menu-link"  onClick={() => handleMenuClick("games")}>
+            <li disabled>
+              <Link className="menu-link">
                 <span className='menu-link-icon'>
                   {gameIcon}
                 </span>
@@ -64,8 +64,8 @@ const affiliateIcon = <svg xmlns="http://www.w3.org/2000/svg" width="20" height=
                 <span className='menu-link-text'> Staking </span>
               </Link> 
             </li>
-            <li className={`menu-item ${activeMenuItem === "affiliate" ? "active" : ""}`}>
-              <Link to="affiliate" className="menu-link" onClick={() => handleMenuClick("affiliate")}>
+            <li disabled>
+              <Link className="menu-link">
                 <span className='menu-link-icon'>
                   {affiliateIcon}
                 </span>
