@@ -1,4 +1,18 @@
 .staking_area{
+    .section_title{
+        h5{
+            margin: 8px 0;
+        }
+        p{
+            font-size: 12px;
+            color:#94969C;
+            line-height: 150%;
+            img{
+                margin-bottom: -5px;
+                margin-right: 8px;
+            }
+        }
+    }
     .staking_cards{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -49,9 +63,67 @@
                         font-weight: 500;
                         line-height: 142%;
                         color: #17B26A;
+                        cursor: text;
                     }
                 }
             }
+            .comming_btn{
+                border-radius: 5px;
+                border: 1px solid #004EEB;
+                background: #026;
+                font-size: 14px;
+                display: inline-block;
+                font-weight: 500;
+                line-height: 142%;
+                color: #004EEB;
+                padding: 2px 10px;
+                text-transform: capitalize;
+                cursor: text;
+            }
+        }
+    }
+    .active_transactions {
+        padding-bottom: 40px;
+        span{
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 133%;
+        }
+        button{
+            border-radius: 8px;
+            border: 1px solid #242934;
+            background: rgba(0, 65, 233, 0.00);
+            box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+            padding: 10px 14px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 142%;
+            transition: all .3s ease-in-out;
+            color: #fff;
+            img{
+                margin-bottom: -5px;
+                margin-left: 6px;
+                max-width: 20px;
+            }
+            &:hover{
+                border: 1px solid #fff;
+
+            }
+        }
+    }
+    & .activated_staking_pool {
+        padding: 40px 0;
+        .site_logo{
+            max-width: 46px;
+            margin-bottom: 16px;
+        }
+        p{
+            display: inline-block;
+            margin-top: 8px;
+            color: #94969C;
+            font-size: 14px;
+            line-height: 142%;
         }
     }
 }

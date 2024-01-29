@@ -8,6 +8,7 @@ import tokenLogo5 from "../../../assets/images/tokenLogo5.png";
 import TransactionsIcon from "../../../assets/images/transactionIcon.png";
 import mixi_logo from "../../../assets/images/mixi_logo.png";
 import '../staking/staking.scss'
+import { Link } from 'react-router-dom';
 const StakingPage = () => {
     const title = "Staking";
     const subTitle = "Staking your $MIXI and deep dive in the cosmo space.";
@@ -83,9 +84,9 @@ const StakingPage = () => {
             <button>View Transactions <img src={TransactionsIcon} alt="" /></button>
         </div>
         <div className="activated_staking_pool d-block text-center">
-            <figure>
+            <Link to='/' className='site_logo'>
                 <img src={mixi_logo} alt="" />
-            </figure>
+            </Link>
             <h5>You have no activated Staking Pool yet</h5>
             <p>Using the Activate button on each Staking Pool.</p>
         </div>
