@@ -8,7 +8,7 @@ import { SidebarContext } from "../../context/SidebarContext";
 const Sidebar = () => {
   const { isSidebarOpen, closeSidebar } = useContext(SidebarContext);
   const navbarRef = useRef(null);
-  const [activeMenuItem, setActiveMenuItem] = useState("games");
+  const [activeMenuItem, setActiveMenuItem] = useState("staking");
   const handleMenuClick = (menuItem) => {
     setActiveMenuItem(menuItem);
     closeSidebar(); // Optional: Close the sidebar when a menu item is clicked
