@@ -1,8 +1,8 @@
 const Affiliate = () => {
   return (
-    <div>
-      Affiliate
-    </div>
+    <section className="affiliet_area">
+      <h1>Affiliate</h1>
+    </section>
   )
 }
 

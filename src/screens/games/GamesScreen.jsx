@@ -1,10 +1,10 @@
-import { AreaCards, AreaTop} from "../../components";
+import { Games, AreaTop} from "../../components";
 
 const Dashboard = () => {
   return (
     <div className="content-area">
       <AreaTop />
-      <AreaCards />
+      <Games />
     </div>
   );
 };
