@@ -1,0 +1,25 @@
+.staking_area{
+    .staking_cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 24px;
+        padding: 40px 0;
+        margin: 40px 0;
+        border-top: 1px solid #242934 ;
+        border-bottom: 1px solid #242934 ;
+        @media(max-width:992px){
+            grid-template-columns: 1fr;
+        }
+        .single__item{
+            border-radius: 16px;
+            border: 1px solid var(--Stroke-Main, #242934);
+            background: var(--Background-Main, #161D26);
+            padding: 24px;
+            .staking_service{
+                padding:24px 0;
+                display: flex;
+                gap: 24px;
+            }
+        }
+    }
+}
