@@ -27,7 +27,7 @@ const StakingPage = () => {
                 <div className="staking_service">
                     <div className="staking_single_service apy">
                         <p>APY</p>
-                        <button>up to ?%</button>
+                        <button>up to 50 ?%</button>
                     </div>
                     <div className="staking_single_service token">
                         <p>token</p>
@@ -49,12 +49,12 @@ const StakingPage = () => {
                 <h3>{stakingCardTitle2}</h3>
                 <div className="staking_service d-flex">
                     <div className="staking_single_service apy">
-                        <span>APY</span>
+                        <p>APY</p>
                         <button>up to ?%</button>
                     </div>
                     <div className="staking_single_service token">
-                        <span>token</span>
-                        <div className='token_logos'>
+                        <p>token</p>
+                        <div className='token_logos d-flex'>
                             <figure>
                                 <img src={tokenLogo2} alt="" />
                             </figure>
