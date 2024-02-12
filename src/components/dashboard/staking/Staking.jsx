@@ -2,6 +2,7 @@ import React from 'react'
 import stakingW from "../../../assets/icons/info-circle.svg";
 import tokenLogo1 from "../../../assets/images/tokenImg1.png";
 import tokenLogo2 from "../../../assets/images/ETH.png";
+import tokenLogo3 from "../../../assets/images/BNB-1.svg";
 import tokenLogo4 from "../../../assets/images/tokenLogo4.png";
 import tokenLogo5 from "../../../assets/images/tokenLogo5.png";
 import TransactionsIcon from "../../../assets/images/transactionIcon.png";
