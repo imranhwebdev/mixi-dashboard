@@ -73,7 +73,7 @@ const affiliateIcon = <svg xmlns="http://www.w3.org/2000/svg" width="20" height=
               </Link> 
             </li>
           </ul>
-          <a href="t.me/mixicoin.com/" className='inline_btn' target='_blank'> 
+          <a href="https://www.t.me/mixicoin.com/" className='inline_btn' target='_blank'> 
             <span><img src={telegramIcon} alt="" /></span> Join the Telegram
           </a>
         </div>
