@@ -1,14 +1,13 @@
 import React from 'react'
 import stakingW from "../../../assets/icons/info-circle.svg";
-import tokenLogo1 from "../../../assets/images/tokenImg1.png";
+import tokenLogo1 from "../../../assets/images/Twice.png";
 import tokenLogo2 from "../../../assets/images/ETH.png";
 import tokenLogo3 from "../../../assets/images/BNB-1.svg";
-import tokenLogo4 from "../../../assets/images/tokenLogo4.png";
+import tokenLogo4 from "../../../assets/images/tokenimg4.svg";
 import tokenLogo5 from "../../../assets/images/tokenLogo5.png";
-import TransactionsIcon from "../../../assets/images/transactionIcon.png";
+import TransactionsIcon from "../../../assets/images/share-03.svg";
 import mixi_logo from "../../../assets/images/logo.svg";
 import '../staking/staking.scss';
-import { Link } from 'react-router-dom';
 const StakingPage = () => {
     const title = "Staking";
     const subTitle = "Staking your $MIXI and deep dive in the cosmo space.";
