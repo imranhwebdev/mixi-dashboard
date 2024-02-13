@@ -37,7 +37,7 @@ const affiliateIcon = <svg xmlns="http://www.w3.org/2000/svg" width="20" height=
       className={`sidebar ${isSidebarOpen ? "sidebar-show" : ""}`}
       ref={navbarRef}>
       <div className="sidebar-top">
-        <Link to='/' className="sidebar-brand">
+        <Link to='https://mixicoin.com' className="sidebar-brand">
           <img src={siteLogo} />
         </Link>
         
